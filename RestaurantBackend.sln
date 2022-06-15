@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantBackend.Core", "RestaurantBackend.Core\RestaurantBackend.Core.csproj", "{0D874D8E-7447-45FB-AC53-3EE23C3C3217}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantBackend.Infrastructure", "RestaurantBackend.Infrastructure\RestaurantBackend.Infrastructure.csproj", "{12E8433B-DD05-4D4B-9869-F26542880664}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantBackend.Core.Interfaces", "RestaurantBackend.Core.Interfaces\RestaurantBackend.Core.Interfaces.csproj", "{442CAD0B-4A6E-4913-B458-1FD7FFAEE43D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantBackend.Infrastructure.Interfaces", "RestaurantBackend.Infrastructure.Interfaces\RestaurantBackend.Infrastructure.Interfaces.csproj", "{26985EE2-195E-47AA-9B95-781E5029A07D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantBackend.Web", "RestaurantBackend.Web\RestaurantBackend.Web.csproj", "{54EDEC88-48C9-4CE4-9D02-7B5A81923EAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D874D8E-7447-45FB-AC53-3EE23C3C3217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D874D8E-7447-45FB-AC53-3EE23C3C3217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D874D8E-7447-45FB-AC53-3EE23C3C3217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D874D8E-7447-45FB-AC53-3EE23C3C3217}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12E8433B-DD05-4D4B-9869-F26542880664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12E8433B-DD05-4D4B-9869-F26542880664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12E8433B-DD05-4D4B-9869-F26542880664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12E8433B-DD05-4D4B-9869-F26542880664}.Release|Any CPU.Build.0 = Release|Any CPU
+		{442CAD0B-4A6E-4913-B458-1FD7FFAEE43D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{442CAD0B-4A6E-4913-B458-1FD7FFAEE43D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{442CAD0B-4A6E-4913-B458-1FD7FFAEE43D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{442CAD0B-4A6E-4913-B458-1FD7FFAEE43D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26985EE2-195E-47AA-9B95-781E5029A07D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26985EE2-195E-47AA-9B95-781E5029A07D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26985EE2-195E-47AA-9B95-781E5029A07D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26985EE2-195E-47AA-9B95-781E5029A07D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54EDEC88-48C9-4CE4-9D02-7B5A81923EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54EDEC88-48C9-4CE4-9D02-7B5A81923EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54EDEC88-48C9-4CE4-9D02-7B5A81923EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54EDEC88-48C9-4CE4-9D02-7B5A81923EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

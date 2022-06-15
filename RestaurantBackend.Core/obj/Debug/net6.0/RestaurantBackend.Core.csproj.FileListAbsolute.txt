@@ -1,0 +1,17 @@
+C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core\bin\Debug\net6.0\RestaurantBackend.Core.deps.json
+C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core\bin\Debug\net6.0\RestaurantBackend.Core.dll
+C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core\bin\Debug\net6.0\RestaurantBackend.Core.pdb
+C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core\bin\Debug\net6.0\RestaurantBackend.Core.Interfaces.dll
+C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core\bin\Debug\net6.0\RestaurantBackend.Core.Interfaces.pdb
+C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core\obj\Debug\net6.0\RestaurantBackend.Core.csproj.AssemblyReference.cache
+C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core\obj\Debug\net6.0\RestaurantBackend.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core\obj\Debug\net6.0\RestaurantBackend.Core.AssemblyInfoInputs.cache
+C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core\obj\Debug\net6.0\RestaurantBackend.Core.AssemblyInfo.cs
+C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core\obj\Debug\net6.0\RestaurantBackend.Core.csproj.CoreCompileInputs.cache
+C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core\obj\Debug\net6.0\RestaurantBackend.Core.csproj.CopyComplete
+C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core\obj\Debug\net6.0\RestaurantBackend.Core.dll
+C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core\obj\Debug\net6.0\refint\RestaurantBackend.Core.dll
+C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core\obj\Debug\net6.0\RestaurantBackend.Core.pdb
+C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core\obj\Debug\net6.0\ref\RestaurantBackend.Core.dll
+C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core\bin\Debug\net6.0\RestaurantBackend.Core.runtimeconfig.json
+C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core\obj\Debug\net6.0\RestaurantBackend.Core.genruntimeconfig.cache

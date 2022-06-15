@@ -1,0 +1,238 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\GitHub\\RiderProject\\RestaurantBackend\\RestaurantBackend.Infrastructure.Interfaces\\RestaurantBackend.Infrastructure.Interfaces.csproj": {}
+  },
+  "projects": {
+    "C:\\GitHub\\RiderProject\\RestaurantBackend\\RestaurantBackend.Core.Interfaces\\RestaurantBackend.Core.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\RiderProject\\RestaurantBackend\\RestaurantBackend.Core.Interfaces\\RestaurantBackend.Core.Interfaces.csproj",
+        "projectName": "RestaurantBackend.Core.Interfaces",
+        "projectPath": "C:\\GitHub\\RiderProject\\RestaurantBackend\\RestaurantBackend.Core.Interfaces\\RestaurantBackend.Core.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\alf16\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\RiderProject\\RestaurantBackend\\RestaurantBackend.Core.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alf16\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[2.0.0-preview1-final, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0-preview.4.22229.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\GitHub\\RiderProject\\RestaurantBackend\\RestaurantBackend.Core\\RestaurantBackend.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\RiderProject\\RestaurantBackend\\RestaurantBackend.Core\\RestaurantBackend.Core.csproj",
+        "projectName": "RestaurantBackend.Core",
+        "projectPath": "C:\\GitHub\\RiderProject\\RestaurantBackend\\RestaurantBackend.Core\\RestaurantBackend.Core.csproj",
+        "packagesPath": "C:\\Users\\alf16\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\RiderProject\\RestaurantBackend\\RestaurantBackend.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alf16\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\GitHub\\RiderProject\\RestaurantBackend\\RestaurantBackend.Core.Interfaces\\RestaurantBackend.Core.Interfaces.csproj": {
+                "projectPath": "C:\\GitHub\\RiderProject\\RestaurantBackend\\RestaurantBackend.Core.Interfaces\\RestaurantBackend.Core.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[2.0.0-preview1-final, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0-preview.4.22229.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\GitHub\\RiderProject\\RestaurantBackend\\RestaurantBackend.Infrastructure.Interfaces\\RestaurantBackend.Infrastructure.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\RiderProject\\RestaurantBackend\\RestaurantBackend.Infrastructure.Interfaces\\RestaurantBackend.Infrastructure.Interfaces.csproj",
+        "projectName": "RestaurantBackend.Infrastructure.Interfaces",
+        "projectPath": "C:\\GitHub\\RiderProject\\RestaurantBackend\\RestaurantBackend.Infrastructure.Interfaces\\RestaurantBackend.Infrastructure.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\alf16\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\RiderProject\\RestaurantBackend\\RestaurantBackend.Infrastructure.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alf16\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\GitHub\\RiderProject\\RestaurantBackend\\RestaurantBackend.Core\\RestaurantBackend.Core.csproj": {
+                "projectPath": "C:\\GitHub\\RiderProject\\RestaurantBackend\\RestaurantBackend.Core\\RestaurantBackend.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[2.0.0-preview1-final, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0-preview.4.22229.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

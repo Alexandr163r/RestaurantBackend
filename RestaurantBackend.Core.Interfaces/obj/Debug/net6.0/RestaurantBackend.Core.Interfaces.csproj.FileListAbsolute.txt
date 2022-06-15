@@ -1,0 +1,14 @@
+C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core.Interfaces\bin\Debug\net6.0\RestaurantBackend.Core.Interfaces.deps.json
+C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core.Interfaces\bin\Debug\net6.0\RestaurantBackend.Core.Interfaces.dll
+C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core.Interfaces\bin\Debug\net6.0\RestaurantBackend.Core.Interfaces.pdb
+C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core.Interfaces\obj\Debug\net6.0\RestaurantBackend.Core.Interfaces.csproj.AssemblyReference.cache
+C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core.Interfaces\obj\Debug\net6.0\RestaurantBackend.Core.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core.Interfaces\obj\Debug\net6.0\RestaurantBackend.Core.Interfaces.AssemblyInfoInputs.cache
+C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core.Interfaces\obj\Debug\net6.0\RestaurantBackend.Core.Interfaces.AssemblyInfo.cs
+C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core.Interfaces\obj\Debug\net6.0\RestaurantBackend.Core.Interfaces.csproj.CoreCompileInputs.cache
+C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core.Interfaces\obj\Debug\net6.0\RestaurantBackend.Core.Interfaces.dll
+C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core.Interfaces\obj\Debug\net6.0\refint\RestaurantBackend.Core.Interfaces.dll
+C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core.Interfaces\obj\Debug\net6.0\RestaurantBackend.Core.Interfaces.pdb
+C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core.Interfaces\obj\Debug\net6.0\ref\RestaurantBackend.Core.Interfaces.dll
+C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core.Interfaces\bin\Debug\net6.0\RestaurantBackend.Core.Interfaces.runtimeconfig.json
+C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core.Interfaces\obj\Debug\net6.0\RestaurantBackend.Core.Interfaces.genruntimeconfig.cache
