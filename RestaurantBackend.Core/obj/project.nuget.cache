@@ -1,17 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "t/2X1ODAC64uD1MkAiA0oa6XIQaW5ghluvHJygz46ZTYndtPvWwBBpF2jxN0YJymSvpoFjQjMdOCYFZWfJo7Og==",
+  "dgSpecHash": "SktDYdBhTamVU+mzqRpb5igmF8gvYILxCyGM1gz7lnHAm4J7y4pPJLnCJ7yhc31WMjIyJmcvfXBZSZ2OTmPG0A==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\RiderProject\\RestaurantBackend\\RestaurantBackend.Core\\RestaurantBackend.Core.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\alf16\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\alf16\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\alf16\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\alf16\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\alf16\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.5\\microsoft.entityframeworkcore.6.0.5.nupkg.sha512",
     "C:\\Users\\alf16\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.5\\microsoft.entityframeworkcore.abstractions.6.0.5.nupkg.sha512",
     "C:\\Users\\alf16\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.5\\microsoft.entityframeworkcore.analyzers.6.0.5.nupkg.sha512",
-    "C:\\Users\\alf16\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.5\\microsoft.entityframeworkcore.design.6.0.5.nupkg.sha512",
     "C:\\Users\\alf16\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.5\\microsoft.entityframeworkcore.relational.6.0.5.nupkg.sha512",
     "C:\\Users\\alf16\\.nuget\\packages\\microsoft.entityframeworkcore.relational.design\\2.0.0-preview1-final\\microsoft.entityframeworkcore.relational.design.2.0.0-preview1-final.nupkg.sha512",
     "C:\\Users\\alf16\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.5\\microsoft.entityframeworkcore.sqlserver.6.0.5.nupkg.sha512",

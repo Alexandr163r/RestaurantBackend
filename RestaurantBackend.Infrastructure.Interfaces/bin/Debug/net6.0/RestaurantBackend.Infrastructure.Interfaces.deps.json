@@ -619,9 +619,6 @@
       },
       "RestaurantBackend.Core/1.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.5",
-          "Microsoft.EntityFrameworkCore.SqlServer.Design": "2.0.0-preview1-final",
-          "Microsoft.Extensions.Configuration.Json": "7.0.0-preview.4.22229.4",
           "RestaurantBackend.Core.Interfaces": "1.0.0"
         },
         "runtime": {

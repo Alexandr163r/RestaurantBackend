@@ -10,7 +10,7 @@ public class DesignTimeDbContextFactory : IDesignTimeDbContextFactory<EFDDBConte
     {
         var builder = new DbContextOptionsBuilder<EFDDBContext>();
         
-        builder.UseSqlServer(@"Server=ALEX\SQLEXPRESS; User Id=dev; Password=111; Database=RestauranBackend;");       
+        builder.UseSqlServer(@"Server=ALEX\SQLEXPRESS; User Id=dev; Password=111; Database=RestaurantBackend;");       
 
         return new EFDDBContext(builder.Options);
     }

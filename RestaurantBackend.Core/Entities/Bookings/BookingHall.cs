@@ -4,7 +4,7 @@ public class BookingHall : BaseEntity
 
 {
     public int SeatNumber { get; set; }
-
+    
     public Decimal Price { get; set; }
 
     public Guid RestaurantId { get; set; }

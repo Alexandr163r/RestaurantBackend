@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace RestaurantBackend.Core.Entities.Restaurants;
 
 public class Table : BaseEntity

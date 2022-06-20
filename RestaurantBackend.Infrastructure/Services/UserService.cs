@@ -1,45 +1,30 @@
-using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 using RestaurantBackend.Core.Entities;
-using RestaurantBackend.Infrastructure.DB;
 using RestaurantBackend.Infrastructure.Interfaces.Services;
+using RestaurantBackend.Infrastructure.Model;
 
 namespace RestaurantBackend.Infrastructure.Services;
 
 public class UserService : IUserService
 {
-    private readonly EFDDBContext context;
+    private readonly UserManager<User> userManager;
 
-    public UserService(EFDDBContext context)
+    public UserService(UserManager<User> userManager)
     {
-        this.context = context;
+        this.userManager = userManager;
     }
-
-    public Task<List<UserEntity>> GetAllAsync()
-    {
-        return context.UserEntities.ToListAsync();
-    }
-
-    public async Task<UserEntity> GetByIdAsync(Guid id)
-    {
-        var user = context.UserEntities.FirstOrDefault(x => x.Id == id);
-        return user;
-    }
-
-    public Task UpdateAsync(Guid id, UserEntity entity)
-    {
-        throw new NotImplementedException();
-    }
-
+    
     public async Task<UserEntity> Insert(UserEntity entity)
     {
-        var userEntry = context.Add(entity);
-        await context.SaveChangesAsync();
+        var user = new User()
+        { 
+            Name = entity.Name,
+            Surname = entity.Surname,
+            Email = entity.Email,
+            Password = entity.Password,
+            Phone = entity.Phone
+        };
+        var result = await userManager.CreateAsync(user);
         return entity;
-    }
-
-    public async Task<UserEntity> GetByName(string name)
-    {
-        var user = context.UserEntities.FirstOrDefault(x => x.Name == name);
-        return user;
     }
 }

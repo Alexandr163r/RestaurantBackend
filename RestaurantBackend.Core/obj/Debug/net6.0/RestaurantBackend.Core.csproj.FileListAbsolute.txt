@@ -13,5 +13,3 @@ C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core\obj\Debug\net6.0
 C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core\obj\Debug\net6.0\refint\RestaurantBackend.Core.dll
 C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core\obj\Debug\net6.0\RestaurantBackend.Core.pdb
 C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core\obj\Debug\net6.0\ref\RestaurantBackend.Core.dll
-C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core\bin\Debug\net6.0\RestaurantBackend.Core.runtimeconfig.json
-C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Core\obj\Debug\net6.0\RestaurantBackend.Core.genruntimeconfig.cache
