@@ -12,8 +12,8 @@ using RestaurantBackend.Infrastructure.DB;
 namespace RestaurantBackend.Infrastructure.Migrations
 {
     [DbContext(typeof(EFDDBContext))]
-    [Migration("20220617084825_DBContext")]
-    partial class DBContext
+    [Migration("20220621063755_RestaurantBackend")]
+    partial class RestaurantBackend
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -222,38 +222,6 @@ namespace RestaurantBackend.Infrastructure.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("RestaurantBackend.Core.Entities.Geo.Address", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid>("CityId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTimeOffset>("CreatefiedOn")
-                        .HasColumnType("datetimeoffset");
-
-                    b.Property<string>("Floor")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("House")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTimeOffset>("ModifiedOn")
-                        .HasColumnType("datetimeoffset");
-
-                    b.Property<string>("Street")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Address");
-                });
-
             modelBuilder.Entity("RestaurantBackend.Core.Entities.UserEntity", b =>
                 {
                     b.Property<Guid>("Id")
@@ -288,7 +256,7 @@ namespace RestaurantBackend.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("UserEntities");
+                    b.ToTable("UserEntity");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

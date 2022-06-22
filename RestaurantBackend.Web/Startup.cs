@@ -26,7 +26,7 @@ public class Startup
         services.AddSwaggerGen();
         
         services.AddDbContext<EFDDBContext>(options =>
-            options.UseSqlServer("Server=ALEX\\SQLEXPRESS; User Id=dev; Password=111; Database=RestaurantBackend;"));
+            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
         services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
             .AddEntityFrameworkStores<EFDDBContext>();

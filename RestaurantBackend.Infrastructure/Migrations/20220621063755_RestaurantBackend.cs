@@ -5,27 +5,10 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace RestaurantBackend.Infrastructure.Migrations
 {
-    public partial class DBContext : Migration
+    public partial class RestaurantBackend : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.CreateTable(
-                name: "Address",
-                columns: table => new
-                {
-                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Street = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    House = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Floor = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CityId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    ModifiedOn = table.Column<DateTimeOffset>(type: "datetimeoffset", nullable: false),
-                    CreatefiedOn = table.Column<DateTimeOffset>(type: "datetimeoffset", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Address", x => x.Id);
-                });
-
             migrationBuilder.CreateTable(
                 name: "AspNetRoles",
                 columns: table => new
@@ -66,7 +49,7 @@ namespace RestaurantBackend.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "UserEntities",
+                name: "UserEntity",
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
@@ -80,7 +63,7 @@ namespace RestaurantBackend.Infrastructure.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_UserEntities", x => x.Id);
+                    table.PrimaryKey("PK_UserEntity", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -232,9 +215,6 @@ namespace RestaurantBackend.Infrastructure.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Address");
-
-            migrationBuilder.DropTable(
                 name: "AspNetRoleClaims");
 
             migrationBuilder.DropTable(
@@ -250,7 +230,7 @@ namespace RestaurantBackend.Infrastructure.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
-                name: "UserEntities");
+                name: "UserEntity");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");

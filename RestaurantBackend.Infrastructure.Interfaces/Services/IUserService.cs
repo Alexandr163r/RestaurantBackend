@@ -1,8 +1,10 @@
-using RestaurantBackend.Core.Entities;
+using Microsoft.AspNetCore.Identity;
 
 namespace RestaurantBackend.Infrastructure.Interfaces.Services;
 
 public interface IUserService
 {
-    public Task<UserEntity> Insert(UserEntity user);
+    public Task<IdentityUser> Insert(IdentityUser user);
+    
+    public Task<List<IdentityUser>> GetAllAsync();
 }

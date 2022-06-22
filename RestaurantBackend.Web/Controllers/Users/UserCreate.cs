@@ -1,5 +1,5 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using RestaurantBackend.Core.Entities;
 using RestaurantBackend.Infrastructure.Interfaces.Services;
 
 
@@ -8,7 +8,7 @@ namespace RestaurantBackend.Web.Controllers.Users;
 public class UserCreate : ControllerBase
 {
    private readonly IUserService service;
-
+   
    public UserCreate(IUserService service)
    {
       this.service = service;
@@ -17,12 +17,11 @@ public class UserCreate : ControllerBase
    [HttpPost("/create")]
    public async Task<IActionResult> Handle([FromBody] RequestModel requestModel)
    {
-      var user = new UserEntity();
-      user.Name = requestModel.Name;
-      user.Surname = requestModel.Surname;
+      var user = new IdentityUser();
       user.Email = requestModel.Email;
-      user.Password = requestModel.Password;
-      user.Phone = requestModel.Phone;
+      user.UserName = requestModel.Name;
+      user.PhoneNumber = requestModel.Phone;
+      user.PasswordHash = requestModel.Password;
       await this.service.Insert(user);
       return Ok(user);
    }
@@ -30,13 +29,11 @@ public class UserCreate : ControllerBase
 
 public class RequestModel
 {
-   public string Name { get; }
+   public string Name { get; set; }
    
-   public string Surname { get; }
-    
-   public string Email { get; }
+   public string Email { get; set; }
    
-   public string Password { get; }
-   
-   public string Phone { get; } 
+   public string Phone { get; set; }
+
+   public string Password { get; set; }
 }
