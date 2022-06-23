@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using RestaurantBackend.Infrastructure.Interfaces.Services;
 
@@ -12,6 +13,7 @@ public class GetAllUsers : ControllerBase
         this.service = service;
     }
 
+    
     [HttpGet("get")]
     public async Task<IActionResult> Handle()
     {

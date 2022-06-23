@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using RestaurantBackend.Infrastructure.Interfaces.Services;
@@ -13,7 +14,7 @@ public class UserCreate : ControllerBase
    {
       this.service = service;
    }
-
+   
    [HttpPost("/create")]
    public async Task<IActionResult> Handle([FromBody] RequestModel requestModel)
    {
@@ -22,7 +23,7 @@ public class UserCreate : ControllerBase
       user.UserName = requestModel.Name;
       user.PhoneNumber = requestModel.Phone;
       user.PasswordHash = requestModel.Password;
-      await this.service.Insert(user);
+      await service.Insert(user);
       return Ok(user);
    }
 }

@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using RestaurantBackend.Infrastructure.DB;
@@ -20,6 +21,14 @@ public class Startup
 
     public void ConfigureServices(IServiceCollection services)
     {
+        services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+            .AddCookie(options =>
+            {
+                options.LoginPath = new Microsoft.AspNetCore.Http.PathString("/Login");
+            });
+        
+        services.AddAuthorization();
+        
         services.AddControllers();
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         services.AddEndpointsApiExplorer();
@@ -46,8 +55,9 @@ public class Startup
 
         //app.UseHttpsRedirection();
         app.UseRouting();
-        app.UseAuthentication();
+
         app.UseAuthorization();
+        app.UseAuthentication();
 
         app.UseEndpoints(
             endpoints =>
