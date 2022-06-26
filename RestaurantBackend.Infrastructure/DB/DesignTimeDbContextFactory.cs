@@ -4,14 +4,14 @@ using Microsoft.Extensions.Configuration;
 
 namespace RestaurantBackend.Infrastructure.DB;
 
-public class DesignTimeDbContextFactory : IDesignTimeDbContextFactory<EFDDBContext>
+public class DesignTimeDbContextFactory : IDesignTimeDbContextFactory<ApplicationDbContext>
 {
-    public EFDDBContext CreateDbContext(string[] args)
+    public ApplicationDbContext CreateDbContext(string[] args)
     {
-        var builder = new DbContextOptionsBuilder<EFDDBContext>();
+        var builder = new DbContextOptionsBuilder<ApplicationDbContext>();
         
         builder.UseSqlServer(@"Server=ALEX\SQLEXPRESS; User Id=dev; Password=111; Database=RestaurantBackend;");       
 
-        return new EFDDBContext(builder.Options);
+        return new ApplicationDbContext(builder.Options);
     }
 }

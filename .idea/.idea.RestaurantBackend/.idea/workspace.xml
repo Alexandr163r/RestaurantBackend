@@ -6,17 +6,78 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2692c8eb-fdd2-453c-9979-88e7f7f5b30f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/RestaurantBackend.Web/Controllers/Users/UserRegister.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RestaurantBackend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RestaurantBackend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Web/Controllers/Users/GetAllUsers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Web/Controllers/Users/GetAllUsers.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Web/Controllers/Users/UserCreate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Web/Controllers/Users/UserCreate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Web/Controllers/Users/UserLogin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Web/Controllers/Users/UserLogin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Core.Interfaces/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Core.Interfaces/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Core/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Core/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/DB/IBaseRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/RestaurantBackend.Infrastructure.Interfaces.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/RestaurantBackend.Infrastructure.Interfaces.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/Services/IUserService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/bin/Debug/net6.0/RestaurantBackend.Infrastructure.Interfaces.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/bin/Debug/net6.0/RestaurantBackend.Infrastructure.Interfaces.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/bin/Debug/net6.0/RestaurantBackend.Infrastructure.Interfaces.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/bin/Debug/net6.0/RestaurantBackend.Infrastructure.Interfaces.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/bin/Debug/net6.0/RestaurantBackend.Infrastructure.Interfaces.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/bin/Debug/net6.0/RestaurantBackend.Infrastructure.Interfaces.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/obj/Debug/net6.0/RestaurantBackend.Infrastructure.Interfaces.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/obj/Debug/net6.0/RestaurantBackend.Infrastructure.Interfaces.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/obj/Debug/net6.0/RestaurantBackend.Infrastructure.Interfaces.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/obj/Debug/net6.0/RestaurantBackend.Infrastructure.Interfaces.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/obj/Debug/net6.0/RestaurantBackend.Infrastructure.Interfaces.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/obj/Debug/net6.0/RestaurantBackend.Infrastructure.Interfaces.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/obj/Debug/net6.0/RestaurantBackend.Infrastructure.Interfaces.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/obj/Debug/net6.0/RestaurantBackend.Infrastructure.Interfaces.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/obj/Debug/net6.0/RestaurantBackend.Infrastructure.Interfaces.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/obj/Debug/net6.0/RestaurantBackend.Infrastructure.Interfaces.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/obj/Debug/net6.0/ref/RestaurantBackend.Infrastructure.Interfaces.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/obj/Debug/net6.0/ref/RestaurantBackend.Infrastructure.Interfaces.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/obj/Debug/net6.0/refint/RestaurantBackend.Infrastructure.Interfaces.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/obj/Debug/net6.0/refint/RestaurantBackend.Infrastructure.Interfaces.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/obj/RestaurantBackend.Infrastructure.Interfaces.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/obj/RestaurantBackend.Infrastructure.Interfaces.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/obj/RestaurantBackend.Infrastructure.Interfaces.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/obj/RestaurantBackend.Infrastructure.Interfaces.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure.Interfaces/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/DB/DesignTimeDbContextFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/DB/DesignTimeDbContextFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/DB/EFDBContex.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/DB/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/Migrations/20220621063755_RestaurantBackend.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/Migrations/20220621063755_RestaurantBackend.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/Model/User.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/RestaurantBackend.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/RestaurantBackend.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/Services/UserService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/bin/Debug/net6.0/RestaurantBackend.Infrastructure.Interfaces.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/bin/Debug/net6.0/RestaurantBackend.Infrastructure.Interfaces.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/bin/Debug/net6.0/RestaurantBackend.Infrastructure.Interfaces.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/bin/Debug/net6.0/RestaurantBackend.Infrastructure.Interfaces.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/bin/Debug/net6.0/RestaurantBackend.Infrastructure.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/bin/Debug/net6.0/RestaurantBackend.Infrastructure.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/bin/Debug/net6.0/RestaurantBackend.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/bin/Debug/net6.0/RestaurantBackend.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/bin/Debug/net6.0/RestaurantBackend.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/bin/Debug/net6.0/RestaurantBackend.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/obj/Debug/net6.0/RestaurantBackend.Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/obj/Debug/net6.0/RestaurantBackend.Infrastructure.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/obj/Debug/net6.0/RestaurantBackend.Infrastructure.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/obj/Debug/net6.0/RestaurantBackend.Infrastructure.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/obj/Debug/net6.0/RestaurantBackend.Infrastructure.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/obj/Debug/net6.0/RestaurantBackend.Infrastructure.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/obj/Debug/net6.0/RestaurantBackend.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/obj/Debug/net6.0/RestaurantBackend.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/obj/Debug/net6.0/RestaurantBackend.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/obj/Debug/net6.0/RestaurantBackend.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/obj/Debug/net6.0/ref/RestaurantBackend.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/obj/Debug/net6.0/ref/RestaurantBackend.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/obj/Debug/net6.0/refint/RestaurantBackend.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/obj/Debug/net6.0/refint/RestaurantBackend.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/obj/RestaurantBackend.Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/obj/RestaurantBackend.Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/obj/RestaurantBackend.Infrastructure.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/obj/RestaurantBackend.Infrastructure.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Web/Controllers/Users/GetAllUsers.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Web/Controllers/Users/UserCreate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Web/Controllers/Users/UserLogin.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/RestaurantBackend.Web/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Web/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Web/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Web/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Web/bin/Debug/net6.0/RestaurantBackend.Infrastructure.Interfaces.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Web/bin/Debug/net6.0/RestaurantBackend.Infrastructure.Interfaces.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Web/bin/Debug/net6.0/RestaurantBackend.Infrastructure.Interfaces.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Web/bin/Debug/net6.0/RestaurantBackend.Infrastructure.Interfaces.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Web/bin/Debug/net6.0/RestaurantBackend.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Web/bin/Debug/net6.0/RestaurantBackend.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Web/bin/Debug/net6.0/RestaurantBackend.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Web/bin/Debug/net6.0/RestaurantBackend.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Web/bin/Debug/net6.0/RestaurantBackend.Web.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Web/bin/Debug/net6.0/RestaurantBackend.Web.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RestaurantBackend.Web/bin/Debug/net6.0/RestaurantBackend.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Web/bin/Debug/net6.0/RestaurantBackend.Web.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RestaurantBackend.Web/bin/Debug/net6.0/RestaurantBackend.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Web/bin/Debug/net6.0/RestaurantBackend.Web.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Web/obj/Debug/net6.0/RestaurantBackend.Web.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Web/obj/Debug/net6.0/RestaurantBackend.Web.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Web/obj/Debug/net6.0/RestaurantBackend.Web.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Web/obj/Debug/net6.0/RestaurantBackend.Web.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Web/obj/Debug/net6.0/RestaurantBackend.Web.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Web/obj/Debug/net6.0/RestaurantBackend.Web.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Web/obj/Debug/net6.0/RestaurantBackend.Web.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Web/obj/Debug/net6.0/RestaurantBackend.Web.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RestaurantBackend.Web/obj/Debug/net6.0/RestaurantBackend.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Web/obj/Debug/net6.0/RestaurantBackend.Web.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RestaurantBackend.Web/obj/Debug/net6.0/RestaurantBackend.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Web/obj/Debug/net6.0/RestaurantBackend.Web.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RestaurantBackend.Web/obj/Debug/net6.0/ref/RestaurantBackend.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Web/obj/Debug/net6.0/ref/RestaurantBackend.Web.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RestaurantBackend.Web/obj/Debug/net6.0/refint/RestaurantBackend.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Web/obj/Debug/net6.0/refint/RestaurantBackend.Web.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Web/obj/RestaurantBackend.Web.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Web/obj/RestaurantBackend.Web.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Web/obj/RestaurantBackend.Web.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Web/obj/RestaurantBackend.Web.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Web/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Web/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Web/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Web/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantBackend.Web/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Web/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RestaurantBackend.Web/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantBackend.Web/obj/staticwebassets.pack.sentinel" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,33 +93,79 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="branch_Userservice" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/branch_Userservice" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="branch_Userservice" />
       </map>
     </option>
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RestaurantBackend.Core.Interfaces/IBaseDates.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RestaurantBackend.Infrastructure/DB/EFDBContex.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RestaurantBackend.Infrastructure/Services/UserService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RestaurantBackend.Web/Controllers/Users/UserCreate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RestaurantBackend.Infrastructure/DB/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RestaurantBackend.Infrastructure/DB/DesignTimeDbContextFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RestaurantBackend.Web/Controllers/Users/UserRegister.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RestaurantBackend.Web/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RestaurantBackend.Web/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RestaurantBackend.Web/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RestaurantBackend.Web/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RestaurantBackend.Web/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6a6a0d9465a2421e84a6a74a3e60c2f93ada90/1d/55b731a3/IQueryable`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9e2b2c84e0da4554b4168ea71b0d085d26e50/72/419467b6/IUser`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9e2b2c84e0da4554b4168ea71b0d085d26e50/d7/daf1d419/IRole`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1af51483c9bf18871cce649b9f966dd7be686536f998c33bba3c5fc4adea4a0/Task.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/37a954845b52703c5cce1aacf8fa1292378878e82bf68c4c4b5effc447316e9/IdentityUser.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3ea95343b9387b73062a9b61b7538f826c54ce3529632b4472ba4494044d23/AsyncTaskMethodBuilderT.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4ea681aa1df24442c1a5e1e18582b1a2d29ac5bfd41390c94a5d2cc958b5ff/UserManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5330988bfaacf93f15e30f9b3dd6018a768f89da3b38d874fda77299c62164/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/575c31ecc35a636b6f962cb71d53992552941a18982aae1c8e6c16305cc3761b/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8b17eea7411eb1ee7e80413e8229dc445ba073ab591c18196db8b55712aabb/ControllerFactoryProvider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/93bf8ca51564b3532dce6442f8ec6d3856e11622b484427b6e965ca60aba4b1/IdentityDbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9d4f4ac7db6d2c5d183ab2d92602280ed4349fd6e6a1b6313546b3d01fdab5/ServiceProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a69c9a45edb0b889d72488281957883ea86de7c0bdcca217df6df4dbb8c613b/IConfigurationRoot.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c1da7b6c7c71a954fe3eb2531c6476711b3e6d93a8d76795386d326bb9dbc/ExecutionContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c6354d55b4c1fdbe22621ea48185af62cdeadcf4f28d9ed0890dfdf36c6/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/cf91eb35ab781c324ad4fa382dce85631ec37cf3813529f7c92208d866c851/TaskContinuation.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e7821e728ca685b97e8a1f8b28162c23268160f93444e3abc3b5dffdaf7b/PathString.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -81,7 +188,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.44308943&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.13207547&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;HotReloadSettingsPage&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -165,7 +272,18 @@
       <workItem from="1655716704899" duration="5988000" />
       <workItem from="1655790147054" duration="15782000" />
       <workItem from="1655893324513" duration="31369000" />
-      <workItem from="1655979601322" duration="1146000" />
+      <workItem from="1655979601322" duration="4072000" />
+      <workItem from="1655984362619" duration="3763000" />
+      <workItem from="1655988194142" duration="138000" />
+      <workItem from="1655988419051" duration="211000" />
+      <workItem from="1655988671810" duration="10463000" />
+      <workItem from="1656017554967" duration="3549000" />
+      <workItem from="1656024876753" duration="20988000" />
+      <workItem from="1656047323802" duration="7688000" />
+      <workItem from="1656221515312" duration="5577000" />
+      <workItem from="1656227155740" duration="12000" />
+      <workItem from="1656227343957" duration="501000" />
+      <workItem from="1656228190802" duration="1683000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1655711755742</created>
@@ -188,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655902492872</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2">
+      <created>1655981692840</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655981692840</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,91 +338,19 @@
     <MESSAGE value="1" />
     <MESSAGE value="11" />
     <MESSAGE value="123" />
-    <option name="LAST_COMMIT_MESSAGE" value="123" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/RestaurantBackend.Web/Controllers/Users/UserLogin.cs</url>
-          <line>22</line>
-          <properties documentPath="C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Web\Controllers\Users\UserLogin.cs" initialLine="22" containingFunctionPresentation="method 'Login'">
-            <startOffsets>
-              <option value="724" />
-            </startOffsets>
-            <endOffsets>
-              <option value="725" />
-            </endOffsets>
+        <breakpoint enabled="true" type="DotNet Exception Breakpoints">
+          <properties exception="System.AggregateException" isInternal="false" displayValue="AggregateException" namespaceName="System">
+            <option name="internal" value="false" />
           </properties>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/RestaurantBackend.Web/Controllers/Users/UserLogin.cs</url>
-          <line>42</line>
-          <properties documentPath="C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Web\Controllers\Users\UserLogin.cs" initialLine="42" containingFunctionPresentation="method 'Login'">
-            <startOffsets>
-              <option value="1451" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1452" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/RestaurantBackend.Web/Controllers/Users/UserLogin.cs</url>
-          <line>25</line>
-          <properties documentPath="C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Web\Controllers\Users\UserLogin.cs" initialLine="25" containingFunctionPresentation="method 'Login'">
-            <startOffsets>
-              <option value="808" />
-            </startOffsets>
-            <endOffsets>
-              <option value="825" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/RestaurantBackend.Web/Controllers/Users/UserLogin.cs</url>
-          <line>32</line>
-          <properties documentPath="C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Web\Controllers\Users\UserLogin.cs" initialLine="32" containingFunctionPresentation="method 'Login'">
-            <startOffsets>
-              <option value="1020" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1143" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/RestaurantBackend.Web/Controllers/Users/UserLogin.cs</url>
-          <line>39</line>
-          <properties documentPath="C:\GitHub\RiderProject\RestaurantBackend\RestaurantBackend.Web\Controllers\Users\UserLogin.cs" initialLine="39" containingFunctionPresentation="method 'Login'">
-            <startOffsets>
-              <option value="1316" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1422" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
+          <option name="timeStamp" value="3" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <pin-to-top-manager>
-      <pinned-members>
-        <PinnedItemInfo parentTag="Frame#RestaurantBackend.Web.Startup.ConfigureServices" memberName="services" />
-      </pinned-members>
-    </pin-to-top-manager>
-    <watches-manager>
-      <configuration name="LaunchSettings">
-        <watch expression="this.Configuration" language="C#" />
-        <watch expression="this.Configuration" language="C#" />
-      </configuration>
-      <inline-watch fileUrl="file://$PROJECT_DIR$/RestaurantBackend.Web/Controllers/Users/UserCreate.cs" line="25">
-        <watch expression="this.&lt;&gt;4__this.service" language="C#" />
-      </inline-watch>
-    </watches-manager>
   </component>
 </project>

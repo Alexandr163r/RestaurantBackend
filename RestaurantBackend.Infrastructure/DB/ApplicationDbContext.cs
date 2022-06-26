@@ -6,15 +6,14 @@ using RestaurantBackend.Core.Entities;
 
 namespace RestaurantBackend.Infrastructure.DB;
 
-public class EFDDBContext : IdentityDbContext<IdentityUser>
+public class ApplicationDbContext : IdentityDbContext<ApplicationUser, ApplicationRole, Guid>
 {
-    public EFDDBContext(DbContextOptions<EFDDBContext> options) : base(options)
+    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
     {
     }
-    
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<UserEntity>();
         base.OnModelCreating(modelBuilder);
     }
 }

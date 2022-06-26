@@ -194,6 +194,10 @@
               "target": "Package",
               "version": "[7.0.0-preview.4.22229.4, )"
             },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[7.0.0-preview.5.22303.8, )"
+            },
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
               "version": "[6.0.5, )"
